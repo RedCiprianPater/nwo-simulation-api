@@ -1,5 +1,5 @@
 fastapi==0.104.1
-uvicorn==0.24.0
+uvicorn[standard]==0.24.0
 redis==5.0.1
 pydantic==2.5.0
 python-multipart==0.0.6
@@ -10,3 +10,7 @@ psycopg2-binary==2.9.9
 celery==5.3.4
 pillow==10.1.0
 numpy==1.26.2
+
+# System dependencies for Pillow
+# Render/Railway should have these pre-installed:
+# libjpeg-dev zlib1g-dev libpng-dev
